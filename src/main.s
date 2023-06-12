@@ -1,6 +1,6 @@
 .arm.little
 
-.open "code.bin", "build/code_patched.bin",0x100000
+.open "code.bin", "build/patched_code.bin",0x100000
 
 .thumb
 
