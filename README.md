@@ -5,7 +5,7 @@ To use:
 
 1. Obtain and decrypt the SSL module (0004013000002F02), then extract its decompressed code binary to the patch directory as "code.bin"
 2. Run `make`.
-3. Copy `out/code.ips` to `sdcard:/luma/titles/0004013000002F02/code.ips`.
+3. Copy `out/code.ips` to `sdcard:/luma/sysmodules/0004013000002F02.ips`.
 4. Enable Game Patching under Luma3DS's configuration.
 
 You may also need to send [ClCertA](https://github.com/SciresM/3DS-SSL-Patch/blob/master/ClCertA.p12?raw=true) as a client certificate. Unclear on that. ~~A copy is included as a .p12 resource, with the password `3ds`.~~ Certificate removed from this fork.
